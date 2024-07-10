@@ -7,7 +7,7 @@
     color: rgb(13, 19, 33);
 }
 /* banner styles */
-.header-section{
+.header-parent{
     width: 100%;
     height: 652px;
     background-image:url('../assets/Hero-bg.png');
@@ -59,88 +59,88 @@
 }
 /* web section styles */
 .web-section{
-    width: 1140px;
-    height: 1395px;
-    margin: 50px auto;
-    padding: 60px 80px 60px 80px;
-    background-color: rgba(13, 19, 33, 0.02);
+     width: 1140px;
+     height: 1395px;
+     margin: 50px auto;
+     padding: 60px 80px 60px 80px;
+     background-color: rgba(13, 19, 33, 0.02);
 }
 .why-web-headings{
-   text-align: center;
+    text-align: center;
 }
 /* why web title styles  */
 .why-web-title{
-   font-size: 30px;
-   font-weight: 800;
+    font-size: 30px;
+    font-weight: 800;
 }
 /* why-web-description styles*/
 .why-web-description, .aims-description, .learn-btn{
-   font-size: 18px;
-   font-weight: 400px;
-   opacity: 0.7;
-   margin-top: 15px;
+    font-size: 18px;
+    font-weight: 400px;
+    opacity: 0.7;
+    margin-top: 15px;
 }
 /* developers aim parts styles */
 .developers-aim{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 30px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 30px;
 }
 /* why web -developers aim sections styles */
 .aim-sections{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 50px;
-  width: 850px;
-  height: 240px;
-  padding: 48px;
-  margin-bottom: 10px;
-  border-radius: 16px;
-  background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    width: 850px;
+    height: 240px;
+    padding: 48px;
+    margin-bottom: 10px;
+    border-radius: 16px;
+    background-color: white;
 }
 .aim-sec-titles{
-  font-size: 20px;
-  font-weight: 700px;
+    font-size: 20px;
+    font-weight: 700px;
 }
 .learn-btn{
-   padding: 12px 20px 12px 20px;
-   border: 1px solid rgb(13, 19, 33);
-   text-decoration: none;
+     padding: 12px 20px 12px 20px;
+     border: 1px solid rgb(13, 19, 33);
+     text-decoration: none;
 }
 .learn-btn a{
-  text-decoration: none;
+    text-decoration: none;
 }
 /*------- my inspiration section styles------- */
 .my-inspiration-section{
-  width: 1149px;
-  height: 777px;
-  margin: 0 auto;
-  padding: 60px 80px 60px 80px;
-  display: flex;
-  gap: 30px;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+    width: 1149px;
+    height: 777px;
+    margin: 0 auto;
+    padding: 60px 80px 60px 80px;
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .inspiration-title{
-  font-size: 30px;
-  font-weight: 800;
-  text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
 }
 .inspiration-descript{
-  font-size: 16px;
-  font-weight: 400px;
-  opacity: 0.7;
-  text-align: center;
+    font-size: 16px;
+    font-weight: 400px;
+    opacity: 0.7;
+    text-align: center;
 }
 #video{
-  width: 80%;
-  height: 100%;
-  margin: 0 auto;
-  border-radius: 15px;
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    border-radius: 15px;
 }
 /* my current target styles here */
 .my-target-section{
@@ -164,7 +164,7 @@
     opacity: 0.7;
     text-align: center;
 }
-/----- target boxes styles----/
+/* /----- target boxes styles----/ */
 .target-boxes-parent{
     display: flex;
     gap: 10px;
@@ -252,7 +252,7 @@
     font-weight: 800;
 }
 /* footer section styles */
-.footer{
+.footer-parent{
     margin-top: 100px;
     background-color: rgba(13, 19, 33, 0.03);
 }
@@ -266,6 +266,6 @@
 }
 .icons{
      display: flex;
-     gap:20px;
+    gap:20px;
 }
 
