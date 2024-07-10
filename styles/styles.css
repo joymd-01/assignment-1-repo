@@ -142,5 +142,114 @@
   margin: 0 auto;
   border-radius: 15px;
 }
+/* my current target styles here */
+.my-target-section{
+    width: 1140px;
+    height: 463px;
+    margin: 0 auto;
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.target-title{
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+}
+.target-descript{
+    font-size: 18px;
+    font-weight: 400px;
+    opacity: 0.7;
+    text-align: center;
+}
+/----- target boxes styles----/
+.target-boxes-parent{
+    display: flex;
+    gap: 10px;
+}
+.target-box{
+    border-radius: 16px;
+    width: 364px;
+    height: 300px;
+    padding: 40px;
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items:flex-start;
+}
+.box-1{
+    background-color: rgba(255, 76, 30, 0.05);
+}
+.box-2{
+    background-color: rgba(0, 76, 232, 0.05);
+}
+.box-3{
+    background-color: rgba(255, 223, 0, 0.05);
+}
+.targets{
+    font-size: 24px;
+    font-weight: 800;
+}
+.targets-descript{
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+}
+.learn-link{
+    font-size: 16px;
+    font-weight: 700;
+}
+/* ----need support section styles ----*/
+.support-sec{
+     height: 314px;
+     width: 1140px;
+     background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('../assets/handshake.jpg');
+     background-blend-mode: overlay;
+     border-radius: 16px;
+     background-position: center;
+     background-size: cover;
+     background-repeat: no-repeat;
+     margin: 0 auto;
+     display: flex;
+     gap: 40px;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+}
+.support-title{
+     color: rgb(255, 255, 255);
+     font-weight: 700px;
+     font-size: 32px;
+}
+.support-descript{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+}
+/* input field styles */
+.feedback-input{
+    width: 548px;
+    height: 50px;
+    padding: 19px 20px 19px 20px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background-color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 600;
+}
+/* submit btn styles */
+.submit-btn{
+    padding: 15px 25px 15px 25px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 800;
+}
 
 
